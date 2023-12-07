@@ -1,5 +1,9 @@
 # Git Command Cheat Sheet
 
+## Overview
+
+Summary of common git commands, and practice with branching
+
 ## Basic Commands
 * 'git init' - initialize local git repository
 * 'git add filename.ext' - add file to be committed
