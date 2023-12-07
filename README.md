@@ -7,7 +7,6 @@ Summary of common git commands, and practice with branching
 stuff on main
 making stuff appear on main
 so that we can make
-a conflict with staging.
 
 ## Basic Commands
 * 'git init' - initialize local git repository
@@ -31,3 +30,4 @@ a conflict with staging.
 ## Remote Commmands
 * 'git remote add orgigin URL' - set 'origin' as alias for remote repo 'URL'
 * 'git push origin branchName' - push local commits to 'origin' repository on branch 'branchName'
+* 'git pull origin branchName' - pull from remote repository 'origin' to 'branchName'
