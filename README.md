@@ -4,6 +4,11 @@
 
 Summary of common git commands, and practice with branching
 
+creating a conflict
+with main
+in staging
+to determine the final winner
+
 ## Basic Commands
 * 'git init' - initialize local git repository
 * 'git add filename.ext' - add file to be committed
@@ -26,3 +31,4 @@ Summary of common git commands, and practice with branching
 ## Remote Commmands
 * 'git remote add orgigin URL' - set 'origin' as alias for remote repo 'URL'
 * 'git push origin branchName' - push local commits to 'origin' repository on branch 'branchName'
+* 'git pull origin branchName' - pull from remote repository 'origin' to 'branchName'
