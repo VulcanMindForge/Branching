@@ -4,10 +4,9 @@
 
 Summary of common git commands, and practice with branching
 
-creating a conflict
-with main
-in staging
-to determine the final winner
+stuff on main
+making stuff appear on main
+so that we can make
 
 ## Basic Commands
 * 'git init' - initialize local git repository
