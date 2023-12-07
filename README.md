@@ -19,3 +19,6 @@
 * 'git branch branchName' - create local branch
 * 'git checkout branchName' - move to branch
 
+## Remote Commmands
+* 'git remote add orgigin URL' - set 'origin' as alias for remote repo 'URL'
+* 'git push origin branchName' - push local commits to 'origin' repository on branch 'branchName'
