@@ -4,10 +4,6 @@
 
 Summary of common git commands, and practice with branching
 
-stuff on main
-making stuff appear on main
-so that we can make
-
 ## Basic Commands
 * 'git init' - initialize local git repository
 * 'git add filename.ext' - add file to be committed
