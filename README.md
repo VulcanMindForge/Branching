@@ -4,6 +4,45 @@
 
 Summary of common git commands, and practice with branching
 
+## Summary of Branch Workflow
+
+1. Checkout and pull main
+	```bash
+	git checkout main
+	git pull origin main
+	```
+1. Checkout new branch
+	```bash
+	git checkout -b someFeature
+	```
+1. Work, committing each complete task, until feature is complete
+
+1. Pull remote main into local branch
+	```bash
+	git add .
+	git commit -m "Complete feature"
+	git pull origin main
+	```
+	* If auto merge succeeds, save and quit from 'vi' editor
+	```
+	:wq
+	```
+	* If 'CONFLICT', fix conflicts in all files and remove merge markers
+	```bash
+	git add .
+	git commit -m "Fix merge conflicts"
+	```
+1. Push to remote branch
+	```bash
+	git push origin someFeature
+	```
+1. On Github, create a pull request and merge with main
+1. Checkout and pull main
+	```bash
+	git checkout main
+	git pull origin main
+	```
+
 ## Basic Commands
 * 'git init' - initialize local git repository
 * 'git add filename.ext' - add file to be committed
@@ -22,6 +61,7 @@ Summary of common git commands, and practice with branching
 * 'git branch' - list local branches
 * 'git branch branchName' - create local branch
 * 'git checkout branchName' - move to branch
+* 'git checkout -b branchName' - create and checkout a new branch
 
 ## Remote Commmands
 * 'git remote add orgigin URL' - set 'origin' as alias for remote repo 'URL'
